@@ -33,6 +33,10 @@ async def on_message(message):
 
 	if message.content.startswith('<@343915078074236929>'):
 		await client.send_message(message.channel, 'h-huh')
+	if message.content.startswith('tfw no bf'):
+		await client.send_message(message.channel, "I'll be your bf, i-if you want")
+	if message.content.startswith('fuck you pimbot'):
+		await client.send_message(message.channel, 'no u')
 	if message.content.startswith('nini~'):
 		await client.send_message(message.channel, 'goodnight qt')
 	if message.content.startswith('no u'):
@@ -41,6 +45,9 @@ async def on_message(message):
 		await client.send_message(message.channel, 'bye bye~')
 	if message.content.startswith('~github'):
 		await client.send_message(message.channel, 'fork me or contribute to my development on github: \nhttps://github.com/Shiimoe/Pimbot')
+
+
+
 
 	if message.content.startswith(message.content[0] + "-" + message.content[0]):
 		await client.send_message(message.channel, 'Stop stuttering you gay cunt')
